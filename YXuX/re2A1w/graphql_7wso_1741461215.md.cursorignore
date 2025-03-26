@@ -1,7 +1,6 @@
 .biome/
 .codesandbox/
 .husky/
-.vscode/
 cypress/
 documentation/.docusaurus/
 documentation/build/
