@@ -1642,7 +1642,6 @@ Wikipedia says
 
 **Programmatic Example**
 
-Here is the simplest example of a chat room (i.e. mediator) with users (i.e. colleagues) sending messages to each other.
 
 First of all, we have the mediator i.e. the chat room
 
