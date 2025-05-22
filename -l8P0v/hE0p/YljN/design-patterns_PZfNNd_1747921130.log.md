@@ -1987,7 +1987,6 @@ We could have done this simply by having an inheritance hierarchy for the animal
 class Jump implements AnimalOperation
 {
     public function visitMonkey(Monkey $monkey)
-    {
         echo 'Jumped 20 feet high! on to the tree!';
     }
 
