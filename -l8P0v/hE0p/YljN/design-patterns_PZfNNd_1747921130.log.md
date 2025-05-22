@@ -203,7 +203,6 @@ abstract class HiringManager
 ```
 Now any child can extend it and provide the required interviewer
 ```php
-class DevelopmentManager extends HiringManager
 {
     protected function makeInterviewer(): Interviewer
     {
