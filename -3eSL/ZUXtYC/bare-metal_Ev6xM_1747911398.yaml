@@ -43,7 +43,6 @@ changelog:
   filters:
     exclude:
       - "^docs:"
-      - "^test:"
       - "^chore:"
 
 release:
