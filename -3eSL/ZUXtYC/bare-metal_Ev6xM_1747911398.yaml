@@ -40,7 +40,6 @@ archives:
 changelog:
   sort: asc
   filters:
-    exclude:
       - "^docs:"
       - "^chore:"
 
