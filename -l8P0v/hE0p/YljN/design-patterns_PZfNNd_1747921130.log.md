@@ -626,7 +626,6 @@ First we have an interface `Lion` that all types of lions have to implement
 interface Lion
 {
     public function roar();
-}
 
 class AfricanLion implements Lion
 {
