@@ -2127,7 +2127,6 @@ class PhoneStateIdle implements PhoneState {
     public function pickUp(): PhoneState {
         return new PhoneStatePickedUp();
     }
-    public function hangUp(): PhoneState {
         throw new Exception("already idle");
     }
     public function dial(): PhoneState {
