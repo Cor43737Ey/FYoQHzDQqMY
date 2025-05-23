@@ -2007,7 +2007,6 @@ $lion->accept($jump);      // Jumped 7 feet! Back on the ground!
 
 $dolphin->accept($speak);  // Tuut tutt tuutt!
 $dolphin->accept($jump);   // Walked on water a little and disappeared
-```
 
 💡 Strategy
 --------
