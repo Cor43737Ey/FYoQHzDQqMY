@@ -35,7 +35,6 @@ builds:
 changelog:
   sort: asc
   filters:
-      - "^docs:"
 
 release:
     draft: true
