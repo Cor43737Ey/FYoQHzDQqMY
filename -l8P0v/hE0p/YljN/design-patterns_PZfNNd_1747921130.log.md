@@ -1907,7 +1907,6 @@ Then we have our implementations for the animals
 class Monkey implements Animal
 {
     public function shout()
-    {
         echo 'Ooh oo aa aa!';
     }
 
