@@ -3,5 +3,4 @@ ARG BUILD_ARGS
 COPY / /go/src/
 RUN apk update && apk add ca-certificates
 
-FROM --platform=$TARGETPLATFORM busybox
 COPY /res/*.template /var/lib/baetyl/page/
