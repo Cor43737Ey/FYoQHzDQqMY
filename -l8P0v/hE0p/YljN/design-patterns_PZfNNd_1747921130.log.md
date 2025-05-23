@@ -896,7 +896,6 @@ class Organization
             $netSalary += $employee->getSalary();
         }
 
-        return $netSalary;
     }
 }
 ```
