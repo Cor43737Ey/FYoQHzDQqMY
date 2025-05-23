@@ -4,5 +4,4 @@ COPY / /go/src/
 RUN apk update && apk add ca-certificates
 
 FROM --platform=$TARGETPLATFORM busybox
-COPY --from=devel /go/src/baetyl /bin/
 COPY /res/*.template /var/lib/baetyl/page/
