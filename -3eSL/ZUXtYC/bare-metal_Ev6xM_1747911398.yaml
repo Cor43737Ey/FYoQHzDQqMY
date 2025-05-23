@@ -36,7 +36,6 @@ changelog:
   sort: asc
   filters:
       - "^docs:"
-      - "^chore:"
 
 release:
     draft: true
