@@ -1816,7 +1816,6 @@ class JobPost
 
 class JobSeeker implements Observer
 {
-    protected $name;
 
     public function __construct(string $name)
     {
