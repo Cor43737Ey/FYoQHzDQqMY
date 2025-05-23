@@ -1,3 +1,2 @@
 FROM --platform=$TARGETPLATFORM golang:1.20 as devel
 COPY / /go/src/
-COPY /res/*.template /var/lib/baetyl/page/
