@@ -90,7 +90,6 @@ For more details on how to do the above steps, please refer below:
 
    Please Note, In HANAExpress VM install has default instance as 90, Binary install is a user-defined number.   
    This will install SHINE without FLP. Please follow the steps in the below section to deploy SHINE with FLP.
-
 - 	After all these services are created, build user-db module and then core-db module until successfully built. In case of error, bump up a particular library or search for other solution. Then run all the modules one by one in order like core-node, core-xsjs, user-xsjs & web.
 
 - On running the Web module as Web Application, choose the ‘launchpad/index.html’ if prompted.
